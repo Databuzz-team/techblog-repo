@@ -6,5 +6,3 @@ db.json
 node_modules/
 public/
 .deploy*/
-scaffolds/
-hexo-theme-repo/

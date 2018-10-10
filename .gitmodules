@@ -1,0 +1,3 @@
+[submodule "hexo-theme"]
+	path = hexo-theme
+	url = https://danialnam@bitbucket.org/danialnam/hexo-theme.git

@@ -1,13 +1,11 @@
 ---
-title: danial
+title: {{ title }}
+date: {{ date }}
 categories:
   - Danial Nam
 tags:
-  - ml
-date: 2018-10-07 11:18:42
+  -
 thumbnail:
 ---
-
-test
 
 ### Related Posts
