@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-  - Danial Nam
+  - Derrick Kim
 tags:
   -
 thumbnail:
