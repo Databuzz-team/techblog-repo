@@ -99,3 +99,16 @@ archive_generator:
   daily: false
 
 disqus: Databuzz
+
+member_info: {
+  "danial-nam" : {
+    "Github" : "https://github.com/DanialDaeHyunNam",
+    "Portfolio" : "",
+    "LinkedIn" : ""
+  },
+  "derrick-kim" : {
+    "Github" : "https://github.com/hskimim",
+    "Portfolio" : "",
+    "LinkedIn" : ""
+  }
+}
