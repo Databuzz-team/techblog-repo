@@ -110,5 +110,10 @@ member_info: {
     "Github" : "https://github.com/hskimim",
     "Portfolio" : "",
     "LinkedIn" : ""
+  },
+  "haley-jang" : {
+    "Github" : "https://github.com/HyowonJang",
+    "Portfolio" : "",
+    "LinkedIn" : ""
   }
 }
