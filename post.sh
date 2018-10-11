@@ -1,3 +1,4 @@
+#!/usr/bin/bash/env bash
 cd themes/hexo-theme-repo/
 git pull origin master
 cd ..
