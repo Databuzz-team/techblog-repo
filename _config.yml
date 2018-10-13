@@ -125,5 +125,15 @@ member_info: {
     "Github" : "https://github.com/benestump",
     "Portfolio" : "",
     "LinkedIn" : ""
+  },
+  "sohyun-bae" : {
+    "Github" : "https://github.com/SHDeseo",
+    "Portfolio" : "",
+    "LinkedIn" : ""
+  },
+  "hanjin-hwang" : {
+    "Github" : "https://github.com/hhj235",
+    "Portfolio" : "",
+    "LinkedIn" : ""
   }
 }
