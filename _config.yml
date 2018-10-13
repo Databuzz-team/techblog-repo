@@ -115,5 +115,15 @@ member_info: {
     "Github" : "https://github.com/HyowonJang",
     "Portfolio" : "",
     "LinkedIn" : ""
+  },
+  "hyeshin-oh" : {
+    "Github" : "https://github.com/hyeshinoh",
+    "Portfolio" : "",
+    "LinkedIn" : ""
+  },
+  "hyungeun-yoon" : {
+    "Github" : "https://github.com/benestump",
+    "Portfolio" : "",
+    "LinkedIn" : ""
   }
 }
