@@ -15,7 +15,8 @@ thumbnail:
 
 기사에서는 조사지역은 미국, 키워드는 "Data Scientist"와 "다른 키워드"를 AND 타입으로 검색하여 데이터 사이언티스트와 연관 키워드가 완전히 매칭되는 결과들만을 모아서 조사하였다. 사용한 채용 사이트는 **LinkedIn, Indeed, SimplyHired, Monster, AngelList**로 5가지이다.
 
-먼저 아래의 그래프는 일반 스킬들을 나열한 결과이다(그래프를 만드는데 사용된 자료 및 과정은 [Jeff Hale Kaggle Kernel](https://www.kaggle.com/discdiver/the-most-in-demand-skills-for-data-scientists/)을 참고하자).
+먼저 아래의 그래프를 통해 요구되는 일반적 스킬들에 대해서 알아보자.
+(그래프를 만드는데 사용된 자료 및 과정은 [Jeff Hale Kaggle Kernel](https://www.kaggle.com/discdiver/the-most-in-demand-skills-for-data-scientists/)을 참고할 것).
 <div>
 <img src="https://cdn-images-1.medium.com/max/800/1*-oG0j_wGSW_9cNNs4_qgFQ.png"/>
 <span style='font-size:12px; text-align:center; display:block; color: #999;'><a href='https://towardsdatascience.com/the-most-in-demand-skills-for-data-scientists-4a4a8db896db'>출처 : The Most In Demand Skills For Data Scientists</a></span>
@@ -24,10 +25,11 @@ thumbnail:
 원본 데이터를 통해서 확인해보면 LinkedIn을 제외한 다른 채용사이트들에서는 Analysis의 비중이 더 높았다. 그래서 전체를 Combine한 결과를 보여주는 위의 그래프에서는 Analysis가 가장 비중이 높은 것으로 보이는 것이다.
 
 원문 저자가 얻은 Insight를 요약하자면,
-- Machine Learning은 예측 시스템을 만드는 가장 핵심 기술이므로 가장 요구되는 기술이다.
-- Data Science는 통계 및 Computer Science기술이 필수이다.
-- Communication이 절반에 가까운 잡 포스팅에서 요구되고 있는 점이 흥미롭다.
-- AI, Deep Learning의 빈도수가 높지 않았으나, 이는 Machine Learning의 부분집합이므로 생긴 현상이다. Deep Learning의 경우는 점점 더 사용되는 경우가 늘고 있다. 예를 들어 자연어 처리의 경우에도 가장 많이 사용되고 있는 알고리즘은 Deep Learning. **저자는 미래에 Deep Learning 스킬이 훨씬 많은 곳에서 요구하게 될 것이며, Machine Learning은 즉 Deep Learning을 의미하게 될 것이라 본다.**
+- Machine Learning은 예측 시스템을 만드는 가장 핵심 기술이므로 가장 요구되는 기술.
+- Data Science는 통계 및 Computer Science기술이 필수.
+- Communication이 절반에 가까운 잡 포스팅에서 요구되고 있는 점.
+- AI, Deep Learning의 빈도수가 높지 않았으나, 이는 Machine Learning의 부분집합이므로 생긴 현상이다.
+- Deep Learning의 경우는 점점 더 사용되는 경우가 늘고 있다. 예를 들어 자연어 처리의 경우에도 가장 많이 사용되고 있는 알고리즘은 Deep Learning. **미래에 Deep Learning 스킬이 훨씬 많은 곳에서 요구하게 될 것이며, Machine Learning은 즉 Deep Learning을 의미하게 될 것이라 본다.**
 
 다음으로는 회사가 원하는 **Technology Skills** 에 대해서 살펴보자.
 
