@@ -8,6 +8,7 @@ date: 2018-10-21 11:23:13
 thumbnail:
 ---
 
+<br>
 > [참고 블로그(8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset) 링크](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
 > [블로거 링크](https://machinelearningmastery.com/)
 
