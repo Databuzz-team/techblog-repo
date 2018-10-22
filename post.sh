@@ -4,6 +4,8 @@ git pull origin master
 cd ..
 cd ..
 git pull origin master
+npm set audit false
+npm install
 hexo clean
 hexo generate -d
 git add .
