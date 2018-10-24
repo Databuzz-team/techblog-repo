@@ -4,7 +4,6 @@ categories:
   - HyunGeun Yoon
 tags:
   - Machine Learning
-  - Data Science
 date: 2018-10-13 14:34:56
 thumbnail:
 ---
