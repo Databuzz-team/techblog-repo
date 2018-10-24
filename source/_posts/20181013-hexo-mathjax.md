@@ -1,10 +1,10 @@
 ---
-title: hexo 블로그에 수식 사용하기 - mathjax 설정
+title: <Hexo> 블로그에 수식 사용하기 - mathjax 설정
 categories:
   - HyeShin Oh
 tags:
-  - hexo
-  - mathjax
+  - Hexo
+  - Mathjax
 date: 2018-10-13 14:30:55
 thumbnail:
 ---
