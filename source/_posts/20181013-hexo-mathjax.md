@@ -72,27 +72,7 @@ mathjax:
 ## 4. markdown post 작성하기
 
 이제 hexo 블로그에 수식을 사용하기 위한 설정은 모두 마쳤습니다.
-마지막으로 post 작성시 header 부분에 `mathjax: true`를 넣어주면 아래처럼 블로그에 수식이 잘 표현되게 됩니다.
-
-```
-$$
-\begin{pmatrix}
- 1 & a_1 & a_1^2 & \cdots & a_1^n \\
- 1 & a_2 & a_2^2 & \cdots & a_2^n \\
- \vdots  & \vdots& \vdots & \ddots & \vdots \\
- 1 & a_m & a_m^2 & \cdots & a_m^n    
- \end{pmatrix}
-$$
-```
-
-$$
-\begin{pmatrix}
- 1 & a_1 & a_1^2 & \cdots & a_1^n \\
- 1 & a_2 & a_2^2 & \cdots & a_2^n \\
- \vdots  & \vdots& \vdots & \ddots & \vdots \\
- 1 & a_m & a_m^2 & \cdots & a_m^n    
- \end{pmatrix}
-$$
+마지막으로 post 작성시 header 부분에 `mathjax: true`를 넣어주면 블로그에 수식이 잘 표현되게 됩니다.
 
 
 
