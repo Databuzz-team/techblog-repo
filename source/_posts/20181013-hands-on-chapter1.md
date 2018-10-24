@@ -5,7 +5,6 @@ categories:
 tags:
   - Machine Learning
   - Data Science
-  - Hands On Machine Learning
 date: 2018-10-13 14:34:56
 thumbnail:
 ---
