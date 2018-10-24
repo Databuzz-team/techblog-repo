@@ -139,7 +139,7 @@ Hands-On Machine Learning with Scikit-Learn & TensorFlow 책을 읽고 공부하
 
 #### 1.4.4 관련 없는 특성
 
-- **특성 공학**<sup>feature engineering : 훈련에 사용할 좋은 특성들을 찾는 것
+- **특성 공학**<sup>feature engineering</sup> : 훈련에 사용할 좋은 특성들을 찾는 것
  - **특성 선택**<sup>feature selection</sup> : 가지고 있는 특성 중에서 훈련에 가장 유용한 특성을 선택
  - **특성 추출**<sup>feature extraction</sup> : 특성을 결합하여 더 유용한 특성을 만듬(차원 축소 알고리즘)
  -  새 특성을 만듬
