@@ -20,7 +20,7 @@ thumbnail:
 </div>
 
 <div style='width: 60%; float:right; color: #333;'>
-<a href='https://databuzz-team.github.io/2018/10/22/Basic-deep-learning-tensorflow-for-beginner/'>이전 포스트 Part 1</a>에서 이미 다룬 내용이며 개념 설명이라 지루할 수는 있지만, Tensorflow를 사용하기 위해선 꼭 이해해야 하는 부분을 다시 그림과 함께 짧게 설명하고자 하니 꼭 읽어주시길 바란다.
+<a href='https://databuzz-team.github.io/2018/10/22/Basic-deep-learning-tensorflow-for-beginner/'>이전 포스트 Part 1</a>에서 이미 다룬 내용인데다 개념 설명이라 지루할 수는 있지만, Tensorflow를 사용하기 위해선 꼭 이해해야 하는 부분을 그림과 함께 짧게 설명하고자 하니, 이 부분을 꼭 읽어주시길 바란다.
 
 옆의 그림은 <strong>Tensorflow</strong> 공식 홈페이지에 가면 나와있는 이미지 파일인데, 정말 직관적으로 Tensorflow의 <strong>Dataflow Graph(Node And Operation)</strong> 를 표현해냈다.
 
