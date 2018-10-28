@@ -20,11 +20,11 @@ thumbnail:
 </div>
 
 <div style='width: 60%; float:right; color: #333;'>
-<a href='https://databuzz-team.github.io/2018/10/22/Basic-deep-learning-tensorflow-for-beginner/'>이전 포스트 Part 1</a>에서 이미 다룬 내용이며 개념 설명이라 지루할 수는 있지만, Tensorflow를 사용하기 위해선 꼭 이해해야 하는 부분이니 다시 그림과 함께 짧게 설명하고자 하니 꼭 읽어주시길 바란다.
+<a href='https://databuzz-team.github.io/2018/10/22/Basic-deep-learning-tensorflow-for-beginner/'>이전 포스트 Part 1</a>에서 이미 다룬 내용이며 개념 설명이라 지루할 수는 있지만, Tensorflow를 사용하기 위해선 꼭 이해해야 하는 부분을 다시 그림과 함께 짧게 설명하고자 하니 꼭 읽어주시길 바란다.
 
-위의 그림은 <strong>Tensorflow</strong> 공식 홈페이지에 가면 나와있는 이미지 파일인데, 정말 직관적으로 Tensorflow의 <strong>Dataflow Graph(Node And Operation)</strong> 를 표현해냈다.
+옆의 그림은 <strong>Tensorflow</strong> 공식 홈페이지에 가면 나와있는 이미지 파일인데, 정말 직관적으로 Tensorflow의 <strong>Dataflow Graph(Node And Operation)</strong> 를 표현해냈다.
 
-먼저 <strong>Tensor</strong> 는 위에서 보이는 검은 라인이고(영어로는 Edge이지만, 라인이 내겐 더 직관적이라 그렇게 설명한 것), <strong>Operation</strong> 은 노드들, 그림에서 타원들을 의미한다. 즉, Tensor가 Operation으로 들어가서 해당 Operation에서 설정한 연산을 진행하고 다시 Tensor를 Output으로 내보내는 것이다.
+먼저 <strong>Tensor</strong> 는 옆에서 보이는 검은 라인이고(영어로는 Edge이지만, 라인이 내겐 더 직관적이라 그렇게 설명한 것), <strong>Operation</strong> 은 노드들, 그림에서 타원들을 의미한다. 즉, Tensor가 Operation으로 들어가서 해당 Operation에서 설정한 연산을 진행하고 다시 Tensor를 Output으로 내보내는 것이다.
 <br>
 <br>
 <blockquote>필자가 이해한 바대로라면 Tensor나 Operation이라는 낯선 단어들을 사용해서 어렵게 느껴지지만 결국은 함수의 기능을 한다고 봐주면 되겠다. 차이점은 Graph는 선언이고 Session을 통해서 Run을 한다는 것</blockquote>
