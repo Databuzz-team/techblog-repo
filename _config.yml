@@ -108,6 +108,9 @@ feed:
   path: atom.xml
   limit: 20
 
+mathjax:
+  enable: true
+
 plugins: hexo-generator-robotstxt
 
 # robots.txt
