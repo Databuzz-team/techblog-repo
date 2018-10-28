@@ -32,7 +32,7 @@ Tensorflow는 Google이 개발한 Library인데, 현재는 가장 사랑을 받�
 
 ### Tensorflow 기본 개념
 > 이 부분은 [A beginner introduction to TensorFlow (Part-1)](https://towardsdatascience.com/a-beginner-introduction-to-tensorflow-part-1-6d139e038278)을 번역 정리하였다.
->
+
 - **Tensorflow** 의 Core는 그래프(computational graph)와 Tensor로 이루어져있다.
 - **Tensor와 Vector의 차이점** 은 Tensor는 크기만 가진경우도 존재한다는 점이다. 즉 Vector는 Tensor의 특수상황이며, 부분집합으로 볼 수 있다.
 - **Tensor** 는 이해했으니 **Flow** 를 살펴보자. **Flow** 는 computational graph 혹은 단순한 graph라고 볼 수 있다. cyclic한 구조는 아니며, 각 노드(아래 그림에서 동그라미)는 덧셈, 뺄셈 등의 기능을 가지고 있다. <div>
@@ -54,7 +54,10 @@ Tensorflow는 Google이 개발한 Library인데, 현재는 가장 사랑을 받�
 </div>
 
 - **Tensorflow** 는 여러 기계에 평행적으로 계산을 실행하여 훨씬 빠른 연산을 할 수가 있는데, 따로 설정할 필요 없이 내부적으로 설정이 된다.
+<br>
   > 위의 그림에서 왼쪽은 single Tensorflow session을 사용한 경우라서 single worker가 존재하는 것이고, 오른쪽은 multiple workers를 사용한 경우
+
+
 - Worker들은 서로 다른 기기에서 독립적으로 연산을 하고 다음 노드에 해당하는 Worker에게 Result를 넘겨준다. 이때, Delay로 인한 성능 저하가 일어날 수 있는데 이는 주로 **Tensor** 의 **Size** 에서 발생하므로 어떤 **자료형** 을 설정할 것인지가 **중요한 문제** 다.
 
 ### 결론

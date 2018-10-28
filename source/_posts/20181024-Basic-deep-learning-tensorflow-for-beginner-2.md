@@ -11,7 +11,7 @@ date: 2018-10-24 10:03:01
 thumbnail:
 ---
 
-이번 포스트에서는 Tensorflow의 기본 문법에 대해서 알아보자.(Tensorflow설치법에 대해서는 다루지 않을 것)
+이번 포스트에서는 Tensorflow에서 꼭 알아야 할 기본적인 지식들에 대해서 알아보자.(Tensorflow설치법에 대해서는 다루지 않을 것)
 
 ### 1. Dataflow
 <div style='width:40%; float:left;'>
