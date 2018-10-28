@@ -29,7 +29,6 @@ thumbnail:
 <br>
 <blockquote>필자가 이해한 바대로라면 Tensor나 Operation이라는 낯선 단어들을 사용해서 어렵게 느껴지지만 결국은 함수의 기능을 한다고 봐주면 되겠다. 차이점은 Graph는 선언이고 Session을 통해서 Run을 한다는 것</blockquote>
 <br>
-<br>
 물론! 끝은 Output으로 값을 내보내는 것을 목적으로 하는 것은 아니다. 우리의 목적은 <strong>W 가중치</strong> 를 <strong>Update</strong> 하는 것이므로, 마지막에 우리가 <strong>Optimizer</strong> 의 변수로 설정한 <strong>W1, b1, W2, b2 ...</strong> 들이 <strong>Update</strong> 되는 것으로 <strong>Session.run()</strong> 이 종료된다.
 ```python
 import tensorflow as tf
