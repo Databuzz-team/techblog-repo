@@ -23,6 +23,7 @@ thumbnail:
 ### 목차
 - <a href='#nn-history'>Neural Network 역사 및 Back propagation의 중요성</a>
 - <a href='why-back-propagation'>왜 Back propagation를 이해해야 할까?</a>
+- <a href='back-propagation'>Back Propagation 설명</a>
 
 
 <h3 id='nn-history' href='#nn-history'>Neural Network 역사</h3>
@@ -55,6 +56,6 @@ Joel Spolsky이 설명한 [The Law of Leaky Abstraction](https://www.joelonsoftw
 
 이 포스트에서는 인공 신경망의 문제점에 대해서는 다루지 않기 때문에 왜 Leaky Abstraction이라 설명했는지 궁금한 경우에는 위의 블로그 링크를 참고하길 바란다.
 
-
+<h3 id='back-propagation' href='#back-propagation'>Back Propagation</h3>
 
 ### Related Posts
