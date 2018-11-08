@@ -109,7 +109,7 @@ feed:
 mathjax:
   enable: true
 
-plugins: hexo-generator-robotstxt
+plugins: hexo-renderer-mathjax
 
 
 

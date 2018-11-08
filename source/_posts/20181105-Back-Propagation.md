@@ -22,8 +22,8 @@ thumbnail:
 
 ### 목차
 - <a href='#nn-history'>Neural Network 역사 및 Back propagation의 중요성</a>
-- <a href='why-back-propagation'>왜 Back propagation를 이해해야 할까?</a>
-- <a href='back-propagation'>Back Propagation 설명</a>
+- <a href='#why-back-propagation'>왜 Back propagation를 이해해야 할까?</a>
+- <a href='#back-propagation'>Back Propagation 설명</a>
 
 
 <h3 id='nn-history' href='#nn-history'>Neural Network 역사</h3>
@@ -58,4 +58,10 @@ Joel Spolsky이 설명한 [The Law of Leaky Abstraction](https://www.joelonsoftw
 
 <h3 id='back-propagation' href='#back-propagation'>Back Propagation</h3>
 
+$$
+\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
+$$
+
 ### Related Posts
+[Backpropagation calculus | Deep learning, chapter 4 by 3Blue1Brown](https://www.youtube.com/watch?v=tIeHLnjs5U8&fbclid=IwAR2lsWOByt_MrzBkv5-Dc9P6JIdvHv1pUELE5q-0SVqQ73b6tS-RYGUI9eM)
+[신경망 기초 이론](https://datascienceschool.net/view-notebook/0178802a219c4e6bb9b820b49bf57f91/)
