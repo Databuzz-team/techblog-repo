@@ -1,5 +1,5 @@
 ---
-title: <Neural Network>Back Propagation에 대한 이해
+title: <Neural Network> 신경망 Feedforward & Back Propagation에 대한 이해
 categories:
   - Danial Nam
 tags:
@@ -9,6 +9,7 @@ tags:
   - Artificial Intelligence
 date: 2018-11-05 14:16:52
 thumbnail:
+mathjax: true
 ---
 
 <br>
@@ -58,9 +59,33 @@ Joel Spolsky이 설명한 [The Law of Leaky Abstraction](https://www.joelonsoftw
 
 <h3 id='back-propagation' href='#back-propagation'>Back Propagation</h3>
 
+### 네트워크 초기화
+<img src="/images/danial/back-prop/network.png">
+
 $$
-\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
+Input = \left[ \begin{array}{cccc}
+i_{1} \\ i_{2} \\\end{array} \right] W_{ji} = \left[ \begin{array}{cccc}
+W_{j1i1} & W_{j1i2} \\
+W_{j2i1} & W_{j2i2} \\
+W_{j3i1} & W_{j3i2} \\ \end{array} \right]
+W_{kj} = \left[ \begin{array}{cccc}
+W_{k1j1} & W_{k1j2} & W_{k1j3} \\
+W_{k2j1} & W_{k2j2} & W_{k2j3} \\
+W_{k3j1} & W_{k3j2} & W_{k3j3} \\ \end{array} \right]
+W_{ok} = \left[ \begin{array}{cccc}
+W_{o1k1} & W_{o1k2} & W_{o1k3} \\
+W_{o2k1} & W_{o2k2} & W_{o2k3} \\ \end{array} \right]
+Output = \left[ \begin{array}{cccc}
+o_{1} \\ o_{2} \\\end{array} \right]
 $$
+
+### <span style='color: red;'>현재 이 포스트는 아직 미완상태입니다. 최대한 빨리 완료해서 올리겠습니다.ㅠㅠ</span>
+
+먼저 신경망의 계산 과정인 순방향 전파(Feedforward propagation)를 살펴보자.
+
+### Layer 1 (Input -> J)
+
+
 
 ### Related Posts
 [Backpropagation calculus | Deep learning, chapter 4 by 3Blue1Brown](https://www.youtube.com/watch?v=tIeHLnjs5U8&fbclid=IwAR2lsWOByt_MrzBkv5-Dc9P6JIdvHv1pUELE5q-0SVqQ73b6tS-RYGUI9eM)
