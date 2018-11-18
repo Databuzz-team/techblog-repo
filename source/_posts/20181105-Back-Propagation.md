@@ -3,7 +3,6 @@ title: <Neural Network> 인공신경망에 대한 이해(Part 1 - Feedforward Pr
 categories:
   - Danial Nam
 tags:
-  - Back Propagation
   - Deep Learning
   - Neural Network
   - Artificial Intelligence
@@ -253,7 +252,7 @@ $$
 
 > 이번 **<Neural Network> 인공신경망에 대한 이해** 포스팅들은 시간을 많이 들여서 가능한 쉽고 직관적으로 설명하기 위해 노력하였다. 만약 도움이 되었다면! 공유를 부탁드린다!
 
-<h3 style='clear:both; margin-top: 10px;'> Related Posts</h3>
+<h3 style='clear:both; margin-top: 20px;'> Related Posts</h3>
 
 [Backpropagation calculus | Deep learning, chapter 4 by 3Blue1Brown](https://www.youtube.com/watch?v=tIeHLnjs5U8&fbclid=IwAR2lsWOByt_MrzBkv5-Dc9P6JIdvHv1pUELE5q-0SVqQ73b6tS-RYGUI9eM)
 [신경망 기초 이론](https://datascienceschool.net/view-notebook/0178802a219c4e6bb9b820b49bf57f91/)

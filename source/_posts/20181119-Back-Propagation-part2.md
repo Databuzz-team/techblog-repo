@@ -3,7 +3,9 @@ title: <Neural Network> 인공신경망에 대한 이해(Part 2 - Back Propagati
 categories:
   - Danial Nam
 tags:
-  - null
+  - Deep Learning
+  - Neural Network
+  - Artificial Intelligence
 date: 2018-11-19 00:24:13
 thumbnail:
 ---
