@@ -20,7 +20,7 @@ mathjax: true
 </div>
 
 ### 목차
-- <a href='#nn-history'>Neural Network 역사 및 Back propagation의 중요성</a>
+- <a href='#nn-history'>Neural Network 역사</a>
 - <a href='#feedforward-propagation'>Feedforward Propagation 설명</a>
   - <a href='#init-network'>네트워크 초기화</a>
   - <a href='#layer1'>Layer 1 (input -> J)</a>
@@ -33,7 +33,7 @@ mathjax: true
 
 <h3 id='nn-history' href='#nn-history'>Neural Network 역사</h3>
 
- 1943년, 워런 맥컬록(Warren McCulloch)와 월터 피츠(Walter Pitts)의 수학과 임계 논리(Threshold logic)라 불리는 알고리즘을 바탕으로 신경망을 위한 계산한 모델이 만들어지며 신경망 연구의 초석을 닦으며 **Neural Network** 역사가 시작되었다.
+ 1943년, 워런 맥컬록(Warren McCulloch)와 월터 피츠(Walter Pitts)의 수학과 임계 논리(Threshold logic)라 불리는 알고리즘을 바탕으로 **Neural Network** 역사가 시작되었다.
 
  하지만, 1969년에 마빈 민스키(Marvin Minsky)와 시모어 페퍼트(Seymour Papert)에 의해 기계학습 논문이 발표된 후 침체되었는데, 그 이유는 두 가지였다.
 
