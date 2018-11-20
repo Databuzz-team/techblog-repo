@@ -26,7 +26,7 @@ mathjax: true
   - <a href='#layer1'>Layer 1 (input -> J)</a>
   - <a href='#layer2'>Layer 2 (J -> K)</a>
   - <a href='#layer3'>Layer 3 (K -> output)</a>
-  <!-- - <a href='#conclusion'>정리</a> -->
+  - <a href='#conclusion'>정리</a>
 - <a href='#cost-function'>오차 함수(Cost function)</a>
 - <a href='#optimization'>가중치 최적화</a>
 
@@ -320,11 +320,26 @@ $$
 
 <hr>
 
-<!-- <h3 id='conclusion' href='#conclusion' style='color: #cb4a44; clear:both; margin-top: 10px;'>정리</h3>
+<h3 id='conclusion' href='#conclusion' style='color: #cb4a44; clear:both; margin-top: 10px;'>정리</h3>
+<img src="/images/danial/back-prop/network_detail.png">
 <p>
-input 데이터와 output은 실재하는 측정된 값이고, 그 사이의 관계를 우리가 알아내는 것이 Machine learning의 목표이므로 우리가 "학습"시키는 대상은 바로 각 layer간에 망처럼 연결된 W, b이다.
+여기까지 계산 과정은 자세히 알아보았다. 현실 데이터들을 사용하게 되면 저것보다 Layer 개수나 각 Layer의 Neuron 개수는 차이가 나겠지만, 행렬 곱이란 점에서 식을 쓰는 법은 사실상 차이가 없을 것이다.
+<br><br>
+Neural network에 대해서 다시 생각해보자면 실제 인간 뇌의 <strong>"Neuron들이 input이 들어오면 <strong>어떤 임계값(Threshold)</strong>이상의 전기신호가 존재해야 전달하는 것"</strong>에서 아이디어를 얻은 것이므로, <br> 위의 그림에서 J, K layer는 그런 Threshold가 넘는지를 <strong>활성화 함수(Activation function)</strong>을 통과시키며 해당 Neuron을 활성화할지 비활성화할지를 결정하는 과정인 것이다.
+<br><br>
+이제 고민해보자. input과 output은 우리가 측정한 실재하는 값이므로 변하지 않는 상수이지만, Hidden layer 내에서는 한 층을 통과할 때마다 새로운 값을 배출하고, 그 값을 다시 다음 층에서 받아서 또 통과시키면서 최초 input이 어떤 패턴을 가졌는지를 확인하는 과정이라고 볼 수 있지 않을까?
+<br><br>
+물론 패턴이라는 것은 해당 layer에서 <strong>활성화(우린 Sigmoid를 사용했으니, 0.5 이상인 경우를 활성화된 상태라고 하자)</strong>시킨 뉴런이 어떻게 분포해있는가를 말하는 것이고, 그 패턴을 해석한 파워는 input -> layer까지 오는 길에 계산한 W, b에서 나오는 것이므로, 이 값들을 우리는 더 <strong>정확한 패턴 해석</strong>을 위해서 학습하게 되는 것이다.
+<br><br>
+W, b가 우리의 학습하려는 값이라고 설명하면 끝나는 것을 길게 얘기했는데, 사실 필자도 이것이 어떻게 도움이 될지는 정확히 모르겠다. 하지만, 어떤 수학 문제가 있을 때 가장 쉽게 푸는 법을 알아내는 사람이 더 뛰어난 것이듯이,
+<br><br>
+분류 혹은 예측 성공률이 매우 높으면서도, 가장 적은 컴퓨팅 파워, 즉 해당 문제를 풀기 위한 가장 최적의 Layer 개수와 Neuron 개수가 존재할 수 있다는 것을 위의 해석 방식에서는 나타내고 있다는 점에서 의미가 있다고 본다.
+<br><br>
+<blockquote>
+이 분야를 공부하는 사람이라면 3Blue1Brown이라는 유튜버를 알고 있을 텐데, 그가 <a href='https://www.youtube.com/watch?v=aircAruvnKk'>신경망이란 무엇인가? | 1장.딥러닝에 관하여</a>에서 설명한 것에서 영감을 얻어 말로 풀어 설명한 것이니 영상을 보며 정리하면 더 도움이 될 것.
+</blockquote>
 </p>
-<hr> -->
+<hr>
 
 <h3 id='cost-function' href='#cost-function' style='clear:both; margin-top: 10px;'>오차 함수(Cost function)</h3>
 
