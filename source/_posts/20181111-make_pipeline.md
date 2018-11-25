@@ -23,21 +23,21 @@ thumbnail:
 예시 코드는 [Kaggle](https://www.kaggle.com/)에서 제공하는 [Titanic](https://www.kaggle.com/c/titanic)데이터를 활용하겠습니다. 이 글은 변환기를 만드는 방법에 대한 설명이라 전처리 방법은 간단한 방법으로 구현하여 올바른 방법이 아닐 수 있음을 말씁드립니다.
 
 <div>
-<img src="/images/HyunGeun/make_pipeline/Titanic Data.png"/>
+<img src="/images/HyunGeun/make_pipeline/Titanic_Data.png"/>
 <span style='font-size:12px; text-align:center; display:block; color: #999;'> Titanic Data</span>
 </div>
 
 위 그림에서 데이터를 살펴보면 age에 NaN값이 존재함을 알 수 있습니다. NaN값을 처리하는 다양한 방법이 있지만 여기에서는 간단하게 모든 age값의 평균으로 채워 넣겠습니다.
 
 <div>
-<img src="/images/HyunGeun/make_pipeline/Age Transformer.png"/>
+<img src="/images/HyunGeun/make_pipeline/Age_Transformer.png"/>
 <span style='font-size:12px; text-align:center; display:block; color: #999;'> Age Transformer</span>
 </div>
 
 위 코드와 같이 용도에 따라서 fit(), transform()을 만들어 주고 TransformerMix을 상속해주기만 하면 fit_transform()이 생성됩니다. 여러가지의 변환기를 연결시켜주는 Pipeline을 만들기 위해 name값을 first name만 표시하는 변환기를 만들어 보겠습니다.
 
 <div>
-<img src="/images/HyunGeun/make_pipeline/Name Transformer.png"/>
+<img src="/images/HyunGeun/make_pipeline/Name_Transformer.png"/>
 <span style='font-size:12px; text-align:center; display:block; color: #999;'> Name Transformer</span>
 </div>
 
