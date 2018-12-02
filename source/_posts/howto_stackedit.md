@@ -3,7 +3,7 @@ title: Try StackEdit
 date: 2018-11-05 17:00:00
 categories:
   - SoHyun Bae
-  
+
 tags:
   - Markdown
 thumbnail:
@@ -15,10 +15,10 @@ thumbnail:
 ![welcome file](https://lh3.googleusercontent.com/PbFld4k-vlnfAeV61KRigj_0BDLKuseBt63P83AjlrAZT4akqk0OJgPFbGXti850KeYHLK2Fq6E)
 
 
-**StackEdit**([https://stackedit.io/](https://stackedit.io/app#))은 브라우저에서 마크다운을 읽고, 쓰고, 저장하고, 깃헙으로 발행할 수 있는 오픈소스 웹 어플리케이션.  작성하는 모든 내용이 실시간으로 저장, 동기화된다. 이미지, 인용, 코드, 표, 등등을 작성할 수 있고 LaTeX로 수학식을 쓰거나 다이어그램도 그릴 수 있다. 
+**StackEdit**([https://stackedit.io/](https://stackedit.io/app#))은 브라우저에서 마크다운을 읽고, 쓰고, 저장하고, 깃헙으로 발행할 수 있는 오픈소스 웹 어플리케이션.  작성하는 모든 내용이 실시간으로 저장, 동기화된다. 이미지, 인용, 코드, 표, 등등을 작성할 수 있고 LaTeX로 수학식을 쓰거나 다이어그램도 그릴 수 있다.
 로컬에 저장되기 때문에 오프라인으로도 사용 가능.
 
-[개발자 깃헙](https://github.com/benweet/stackedit/)에 따르면 다음과 같은걸 할 수 있다. 
+[개발자 깃헙](https://github.com/benweet/stackedit/)에 따르면 다음과 같은걸 할 수 있다.
 
 ### StackEdit은:
 - 여러 마크다운 파일을 온라인/오프라인으로 관리
@@ -52,7 +52,7 @@ thumbnail:
 ](https://lh3.googleusercontent.com/lDtQxjzRy6zfFRCiohVy10GOE8-WR7EmyDbWZj0Xgh7yUODkP1rNaUUOw8fa_k8Vygdn5aytSkI "Workspace")
 
 사실 계정 하나로 로그인해놓고 브라우저에서 노트하는 걸로만 써와서 워크스페이스는 거의 안 써봤다. <br>
-깃에 바로 퍼블리싱 할 수 있는 기능은 굉장히 유용한데 한 가지 단점은 레포의 어느 폴더로 들어갈 지까지는 적용할 수 없어서 1)발행 후 2)폴더이동 의 작업이 두번씩 필요하다. 이렇게 하면 사실 동기화가 안 된다는게 아쉬운 부분.
+깃에 바로 퍼블리싱 할 수 있는 기능은 굉장히 유용하다. 레포 내에서의 경로 지정도 가능.
 
 
 ## 툴바
@@ -65,7 +65,7 @@ thumbnail:
 
 ![enter image description here](https://lh3.googleusercontent.com/q--du9ULEm3AkmfX3VJDVk9OAQWMWd8zbNUFWNMhtIxU7MXuY_vx8bVu_v1FqfkU5rZDBLrAlOJ3)
 <br> <br>
-이미지는 링크로 가져와야하는데 구글포토와 연동하면 구글포토에 업로드한 사진을 가져올 수 있다. 로컬에 있는 이미지를 올리고 싶을 때 구글포토 백업을 사용하면 편리하다. 가끔 이미지 사이즈가 멋대로 조절된다는 단점이 있다. 
+이미지는 링크로 가져와야하는데 구글포토와 연동하면 구글포토에 업로드한 사진을 가져올 수 있다. 로컬에 있는 이미지를 올리고 싶을 때 구글포토 백업을 사용하면 편리하다. 가끔 이미지 사이즈가 멋대로 조절된다는 단점이 있다.
  <br> <br> <br>
 ##  편집화면, 미리보기
 
@@ -114,13 +114,13 @@ thumbnail:
 
 ## KaTeX
 
-KaTeX를 이용해 LaTeX의 수학식을 표시할 수 있다. 자세한건 Welcome File와 [KaTeX](https://katex.org/) 참조. 현재 블로그에서는 구현되지 않아서 이미지로 대체한다. 
+KaTeX를 이용해 LaTeX의 수학식을 표시할 수 있다. 자세한건 Welcome File와 [KaTeX](https://katex.org/) 참조. 현재 블로그에서는 구현되지 않아서 이미지로 대체한다.
 
 예:
 
 ![
 ](https://lh3.googleusercontent.com/B-hZCzfY5RXT5VpTh1S5EprLEhDARx32Lfqpgh5VUXXg3u8uuI7HCyAMq6gGbtjlorEdW7jLCggV=s10000)
-코드: 
+코드:
 
 The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
@@ -164,15 +164,3 @@ C --> D
 #
 별도의 설치 없이 로컬 브라우저에서 편집할 수 있는 훌륭한 툴을 이용하는데에 도움이 되었길 바란다. 유용했다면 오픈소스에게 귀중한 5달러를 기부해도 좋을 듯. <br> <br> <br> ![
 ](https://lh3.googleusercontent.com/HjZDx-jC6U4n5_QOBp6fxxwt5IfjJ3NrNEgk4SwPmMXWb20YImZf1lll3MoNeALzEm2wLt9EaI3C "donate please")
-
-
-
-
-
-
-
-
-
-
- 
-
