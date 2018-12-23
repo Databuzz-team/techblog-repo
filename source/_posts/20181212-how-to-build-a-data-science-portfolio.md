@@ -60,8 +60,7 @@ thumbnail:
 
 <h2 id='importance-of-a-portfolio'>포트폴리오의 중요성</h2>
 만드는 과정에서 배우는 것이 있다는 점 외에도 취업에 있어서 아주 큰 혜택을 주는 것이 포트폴리오이다. 이 포스팅에서는 포트폴리오의 정의를 <strong>대중들에게 자신이 가진 데이터 사이언스 스킬을 증명하는 것</strong>으로 하자. (이 정의는 DataCamp의 Chief 데이터 사이언티스트인 <a href='https://twitter.com/drob'><strong>David Robinson</strong></a>이 <strong>Mode Analytics blog소속 Marissa Gemma</strong>의 인터뷰에서 표현한 것을 가져왔다). 그는 어떻게 처음에 이 분야에서 일하게 됐냐는 질문에 아래처럼 답했다.
-<br>
-<br>
+<br><br>
 <i>
 "내가 사용했던 가장 효과적인 방법은 public 한 작업들을 했다는 것이었다. 블로그를 했고 박사학위 과정 중에는 많은 오픈소스 프로젝트에 참여하였는데, 이 경험은 내가 데이터 사이언스 기술들을 많이 가졌다는 것을 사람들에게 알리는 계기가 되었던 것이다. 처음으로 이 분야에 일을 구하게 된 가장 큰 계기는 Stack overflow에 남겼던 나의 답변 덕이었는데, 그 답변에 감탄한 한 회사의 직원이 내게 연락이 왔고, 몇 번의 면접 후에 취업을 했던 것이었다."
 </i>
