@@ -1,9 +1,11 @@
 ---
-title: <Medium 블로그 번역>Data Scientist 취업을 위한 포트폴리오 만드는 법
+title: <Medium 블로그 번역>데이터 사이언티스트 취업을 위한 포트폴리오 만드는 법
 categories:
   - Danial Nam
 tags:
   - Data Science
+  - Portfolio
+  - Resume
 date: 2018-12-23 10:10:05
 thumbnail:
 ---
