@@ -36,12 +36,12 @@ thumbnail:
 
 합리적인 질문이다. 공식만 봐도 어려워보이는 이 부분을 공부하는 것이 동기부여가 쉽게 되지않는것이 사실이기 때문에..
 
-하지만, [Yes you should understand backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b) 글에서 설명했듯 이 **Back Propagation** 은 **Leaky Abstraction** 라는 것이다.
+하지만, [Yes you should understand backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b) 글에서 설명했듯 **Back Propagation** 은 **Leaky Abstraction** 라는 것이다.
 
 > **Leaky Abstraction**<br>
 Joel Spolsky이 설명한 [The Law of Leaky Abstraction](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)에서 사용된 표현으로써 프로그래밍 언어를 추상화시켜서 내부 구현을 모르도록 만들어놨지만, <strong style='color:red'>결국 제대로 사용하려면 내부 구현을 상당 부분 알아야 한다는 것을 의미한다.</strong>
 
-이 포스트에서는 인공 신경망의 문제점에 대해서는 다루지 않기 때문에 왜 Leaky Abstraction이라 설명했는지 궁금한 경우에는 위의 [블로그 링크](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)를 참고하길 바란다.
+이 포스트에서는 역전파 계산과정을 통해서 왜 인공 신경망의 문제점(그래디언트 소멸 문제와 초기값의 중요성)에 발생하는 것이며 어떻게 해결할 수 있는지에 대해서도 알아볼 것이다.
 
 <h3 id='back-propagation' href='#back-propagation'>Back propagation 설명</h3>
 시작에 앞서 먼저 <a href='/2018/11/05/Back-Propagation/'>이전 포스트</a>에서 정의한 네트워크를 다시 살펴보자.
@@ -79,7 +79,7 @@ $$
 
 <h4 id='derivatives' href='#derivatives'>역전파 계산에 사용될 도함수</h4>
 먼저 설명을 시작하기에 앞서 우리가 사용하게 될 도함수들을 살펴보자.
-
+<br><br>
 <strong>Sigmoid</strong>
 
 $$
@@ -253,8 +253,8 @@ $$
 항상 체인룰에 의해 곱해지는 이 미분 값이 바로 <strong id='v-g-p'>그래디언트 소멸 문제(Vanishing gradient problem)</strong>을 발생시키는 원인이기 때문이다.
 
 그 이유는 아래 그림을 보면 명백하다.
-<img src="/images/danial/back-prop/sigmoid_derivative.png">
-1보다 작고, 가장 클 때 0.25인 Sigmoid 함수 미분값(기울기)이 매번 곱해지게 되면서 결국
+<img style='width:100%;' src="/images/danial/back-prop/sigmoid_derivative.png">
+위의 그림의 주황색선 미분값을 보게되면 크기가 1보다 작고, 가장 클 때 0.25인 Sigmoid 함수 미분값(기울기)이 매번 곱해지게 되면서 결국
 $$
 \delta W_{j1k1}
 $$
@@ -301,13 +301,13 @@ $$
 \frac{\partial K_{out1}}{\partial K_{in1}}, \frac{\partial O_{out1}}{\partial O_{in1}}
 $$
 두 개의 활성화 함수의 기울기 값이 곱해지고 있는 것이다.
-
+<br><br>
 <strong>물론 위의 예는 output Layer를 포함하고 있어서 아까전에 말한 Sigmoid 함수의 문제를 증폭시키는 것은 아니지만, 중앙에 위치한 어떤 Layer의 Weight값을 수정하기위한 계산이라고 생각해보라. 역전파가 Input에 가까워질수록 변경하게될 Weight값을 사실상 0이나 다름없게 되는 것이다.</strong>
-
+<br><br>
 이 부분이 이해가 되면 이번 포스트는 70%정도 역할을 해냈다고 본다.. (설명이 마음에 들었다면 부디 공유를 부탁!!)
-
+<br><br>
 다음도 중요한 부분이니 계속해서 살펴보자!
-
+<br><br>
 이제
 $$
 \frac{\partial E_{1}}{\partial K_{out1}} = \frac{\partial E_{1}}{\partial O_{out1}} * \frac{\partial O_{out1}}{\partial O_{in1}} * \frac{\partial O_{in1}}{\partial K_{out1}}
@@ -333,7 +333,7 @@ $$
 \textcolor{first}{W_{k1o1}}
 $$
 를 의미한다.
-
+<br>
 이제 통합해보면
 $$
 \left[ \begin{array}{cccc}
@@ -348,11 +348,11 @@ $$
 가 되겠다!
 
 여기서 <strong>포인트</strong>는 <strong id='initial-weight'>Weight 초기값 설정</strong>이 너무나도 중요하다는 것이다.
-
+<br><br>
 <strong>역전파에서 계속해서 곱해지는 값 중 하나가 바로 이전 Layer(역전파 기준으로 이전)의 Weight값이라는 점.
 곱셈으로 연결되어 있는 체인룰에 의해서 초기값을 0으로 하게되면 당연히 업데이트가 일어나지 않게 되는 것이다. 인공지능분야 유명한 교수인 Hinton교수님이 하신 말씀이 We initialized the weights in a stupid way. 즉! 초기값을 어떻게 설정하는지가 매우 중요하다는 것! 이 부분을 꼭 기억하자.
 </strong>
-
+<br><br>
 이제 위에서 구한 모든 식을 곱하게 되면
 $$
 \delta W_{jk} =  \left[ \begin{array}{cccc}
@@ -369,7 +369,7 @@ _{out2}}{\partial K_{in2}} * \frac{\partial K_{in2}}{\partial W_{j3k2}} & \frac{
 _{out3}}{\partial K_{in3}} * \frac{\partial K_{in3}}{\partial W_{j3k3}} \\ \end{array} \right]
 $$
 를 구할 수 있다.
-
+<br><br>
 역시 마찬가지로,
 $$
 \acute{W_{jk}} = \left[ \begin{array}{cccc}
@@ -380,7 +380,7 @@ $$
 방식으로 수정해주면 되겠다.
 
 <br><br>
-아직 J layer에서 Input layer 역전파가 남은 것은 알지만.. 사실상 계산법이 차이가 크게 없기 때문에 더 설명하지는 않고 계산은 여기서 끝내도록 하겠다. 여기까지 읽으신 분에게 박수를.. 보낸다. 이제 위에서 설명한 소멸 문제와 초기값에 대해서 좀 더 얘기하고 이번 포스트를 마무리하도록 하겠다.
+아직 J layer에서 Input layer 역전파 부분과 bias에 대한 계산이 아직 남은 것은 알지만.. 사실상 계산법이 차이가 크게 없기 때문에 더 설명하지는 않고 계산은 여기서 끝내도록 하겠다. 여기까지 읽으신 분에게 박수를.. 보낸다. 이제 위에서 설명한 소멸 문제와 초기값에 대해서 좀 더 얘기하고 이번 포스트를 마무리하도록 하겠다.
 
 <h3 id='conclusion'>문제점 해결 방법 및 결론</h3>
 
@@ -399,6 +399,13 @@ import tensorflow as tf
 tf.contrib.layers.xavier_initializer()
 ```
 
-드디어 이 포스팅을 완료했다.. 만약 도움이 많이 되었다면 꼭 공유를 해주면 감사하겠다!!
+이쯤에서 이 내용들을 시각화해서.. 알려주는 최고의 Youtuber 3Blue1Brown의 영상(아래 링크)을 보게되면 좋은 복습이 될 것이라 생각한다. [What is backpropagation really doing?](https://www.youtube.com/watch?v=Ilg3gGewQ5U&index=4&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+
+Backpropagation에 대한 설명을 드디어 마쳤다. 과정을 이해함으로써 소멸문제 및 초기화의 중요성에 대해서 제법 시원한 해답을 얻었지만, 더 많은 호기심들이 생겨난다. Gradient Descent하는 방법, 즉 어떤 Optimizer를 쓰는 것이 좋을까? 등등..
+
+만약 도움이 많이 되었다면 꼭 공유해주길!
+
+다음 포스팅 내용은 Tensorflow를 이용하여 CNN 모델링하는 법에 대해서 작성하겠다!
 
 ### Related Posts
+- [Backprop is very simple. Who made it Complicated?](https://github.com/Prakashvanapalli/TensorFlow/blob/master/Blogposts/Backpropogation_with_Images.ipynb)
