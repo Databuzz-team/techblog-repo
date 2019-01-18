@@ -46,7 +46,8 @@ Joel Spolsky이 설명한 [The Law of Leaky Abstraction](https://www.joelonsoftw
 
 <h3 id='back-propagation' href='#back-propagation'>Back propagation 설명</h3>
 시작에 앞서 먼저 <a href='/2018/11/05/Back-Propagation/'>이전 포스트</a>에서 정의한 네트워크를 다시 살펴보자.
-
+<br>
+<br>
 <img src="/images/danial/back-prop/network.png">
 
 $$
@@ -133,7 +134,7 @@ $$
 </div>
 <!-- <div style=''> -->
 
-먼저 K layer와 output layer 사이의 W<sub>ko</sub>가 E<sub>total</sub>(오차값)에 끼치는 영향을 확인하고 E<sub>total</sub>이 낮아지는 방향으로 값을 수정해보자.
+먼저 K layer와 output layer 사이의 W<sub>ko</sub>가 E<sub>total</sub>(오차값)에 끼치는 영향을 확인하고 E<sub>total</sub>이 낮아지는 방향으로 값을 수정해보자.<br>
 이를 수식으로 표현해보면 아래와 같다.
 
 $$
@@ -157,13 +158,14 @@ $$
 $$
 \frac{\partial E_{1}}{\partial W_{k1o1}}
 $$
-이 체인룰에 의해서
+이었던 식은 체인룰에 의해서
 $$
 \frac{\partial E_{1}}{\partial W_{k1o1}} = \frac{\partial E_{1}}{\partial O_{out1}} * \frac{\partial O
 _{out1}}{\partial O_{in1}} * \frac{\partial O_{in1}}{\partial W_{k1o1}}
 $$
 가 된다. 여기서 관찰할 점은 컴퓨터가 순방향 전파를 진행하면서 O<sub>out1</sub>, O<sub>in1</sub>들을 다 계산했었다는 점이다. 즉 이들은 역전파가 이루어지는 이 순간에 상수로 작용한다. 그렇게 보면 도함수에 해당 값들을 대입하기만 하면 되므로 계산량이 상대적으로 크지 않다는 것을 알 수 있다.
-<br>자 이제 <a href='#derivatives'>역전파 계산에 사용될 도함수</a>에서 보여준 함수에 값을 대입하면 된다.
+<br><br>
+자 이제 <a href='#derivatives'>역전파 계산에 사용될 도함수</a>에서 보여준 함수에 값을 대입하면 된다.
 $$
 \frac{\partial E_{1}}{\partial O_{out1}} =  -1  * ((y_{1} * (1/O_{out1}) + (1-y_{1}) * (1/(1-O_{out1}))
 $$
