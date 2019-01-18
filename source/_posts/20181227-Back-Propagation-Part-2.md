@@ -241,7 +241,7 @@ $$
 \frac{\partial K_{in1}}{\partial W_{j1k1}} =
 \frac{\partial(\textcolor{first}{W_{j1k1}} \times J_{out1} +
 \textcolor{second}{W_{j2k1}} \times J_{out2} +
-\textcolor{third}{W_{j3k1}} \times J_{out3} + b_{k1})}{\partial W_{j1k1}}
+\textcolor{third}{W_{j3k1}} \times J_{out3} + b_{k1})}{\partial \textcolor{first}{W_{j1k1}}}
 $$
 
 위에서와 마찬가지로 이 부분은 한단계 전 Layer의 output을 의미한다. 즉,
