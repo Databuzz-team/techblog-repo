@@ -82,31 +82,26 @@ David은 자신의 블로그에 이와 관련해 표현하기를,
 아래의 짤에서 보여주듯 대부분 회사들은 신입사원을 뽑는 공고에서조차 일 경험이 있길 기대하는 경우가 많다.
 <img src='/images/danial/how-to-build-portfolio/portfolio-meme.png'>
 문제는 이처럼 일 경험이 없는데 경험을 요구하면 어떻게 해야하는 것인가하는 점이다. 그 해답은 바로 <strong>프로젝트</strong>이다. <a href='https://will-stanton.com/2015/07/15/creating-a-great-data-science-resume/'>Will Stanson</a>은 프로젝트가 경험을 대체할 수 있는 최고의 방법이라고 말한다.
-<br>
 <i>
 만약 당신이 데이터 사이언티스트 경험이 없다면, 반드시 개인 프로젝트를 실시해야한다.
 </i>
-<br>
 실제로 <a href='https://medium.com/@skyetetra'>Jonathan Nolis</a>가 지원자에게 듣고싶어했던 것은 최근에 프로젝트 진행중에 어떤 문제점을 해결했는지였다.
-<br>
 <i>
 "난 그들이 최근에 한 프로젝트를 듣고 싶다. 그들에게 해당 프로젝트를 시작하게 된 동기라던가 그 일에 왜 시간을 투자하기로 결정했는지, 진행과정과 결과 등을 물어봤다. 또한 그들이 프로젝트를 통해서 배운 점이 무엇인지를 물어봤고, 특히 '해결하고자 하는 문제가 가진 가치가 무엇이며 그것을 위해서 어떤 식으로 노력했는가?'라는 질문을 통해서 가장 얻고 싶은 대답들을 얻을 수 있었다."
 </i>
-<br>
 만약 당신이 데이터 사이언티스트로써의 경험이 없다면 최고의 방법은 당신이 진행한 데이터 사이언스 프로젝트를 최대한 보여주는 것이다.
 <h2 id='type-of-projects'>어떤 프로젝트를 포트폴리오에 포함해야할까?</h2>
 데이터 사이언스의 범위가 너무 넓어서 채용매니저들이 어떤 프로젝트들을 보고싶어할지 알기는 어렵다. Quora의 데이터 사이언스 매니저인 <a href='https://twitter.com/wzchen'>William Chen</a>이 2018년 Kaggle 채용 박람회에서 아래처럼 설명했다.
-<br><br>
 <i>
 난 사람들이 숙제나 과제를 넘어 데이터에 대한 관심을 보여주는 것을 좋아한다. 개인적 프로젝트를 통해서 데이터셋에 대한 자신만의 열정이나 흥미로운 결과를 보여주는 것.. 그 것에 대해서 깔끔하게 문서화한 것.. 그런 작업들을 통해서 난 자주 감탄을하고 한다.
 </i>
-<br><br>
+<br>
 많은 사람들이 프로젝트를 만드는 것의 가치를 알고있으나, 가장 중요한 점은 왜 그 데이터들에 당신이 관심을 가졌고, 어떤 인사이트를 얻거나 얻으려했는지에 대해서는 잘 설명해내지 못한다. Airbnb의 데이터 사이언티스트인 <a href='https://medium.com/@jasonkgoodman'>Jason Goodman</a>은 자신의 포스트인 <a href='https://medium.com/@jasonkgoodman/advice-on-building-data-portfolio-projects-c5f96d8a0627'>"데이터 포트폴리오 프로젝트에 관한 조언"</a>에서 다양한 프로젝트 아이디어와 어떤 데이터셋을 이용하면 좋은지에대해 조언을 해주고 있다. 그는 또한 William이 말한 것처럼 interesting data, 흥미로운 데이터를 가지고 작업해야한다는 점을 강조했다.
-<br><br>
+<br>
 <i>
 난 최고의 포트폴리오 프로젝트는 화려한 모델링보다는 흥미로운 데이터셋을 사용하는 것에 있다고 생각한다. 많은 사람들이 금융 데이터나 트위터데이터를 사용하는데, 이런 데이터들은 주로 흥미롭지는 않아서 고행을 겪을 확률이 높다.
 </i>
-<br><br>
+<br>
 그는 웹 스크래핑이 흥미로운 데이터를 얻기위한 좋은 방법이라고 이야기했다. 만약 당신이 웹스크래핑을 통해서 데이터셋을 얻고싶다면 나의 <a href='https://towardsdatascience.com/using-scrapy-to-build-your-own-dataset-64ea2d7d4673'>포스트</a>를 확인하길 바란다. 또한 만약 당신이 학위를 얻고있는 중이라면 논문에 사용한 프로젝트는 아주 좋은 프로젝트가 될 수 있다는 점도 명심하자(예로는 William Chen이 포스팅한 <a href='https://www.youtube.com/watch?v=xrhPjE7wHas&feature=youtu.be&t=31m15s'>자료</a>를 확인하자).
 <h2 id='type-of-projects-not-to-include'>포트폴리오에 넣으면 안되는 프로젝트는?</h2>
 넣으면 오히려 안좋은 프로젝트들은 존재한다. <a href='https://towardsdatascience.com/@jeremie_sharpestminds'>Jaremie Harris</a>가 <a href='https://towardsdatascience.com/the-4-fastest-ways-not-to-get-hired-as-a-data-scientist-565b42bd011e'>데이터 사이언티스트로 채용안되는 최고의 4가지 방법</a>에서 설명하기를,
