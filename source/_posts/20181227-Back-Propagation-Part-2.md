@@ -5,6 +5,7 @@ categories:
 tags:
   - Deep Learning
   - Neural Network
+  - Back Propagation
   - Artificial Intelligence
 date: 2018-12-27 15:54:51
 thumbnail:
@@ -16,9 +17,9 @@ thumbnail:
 
 <br>
 
-이번 포스트(Part 2)에서는 인공 신경망을 가능하게 한 **Back Propagation** 에 대해 알아보도록 하겠다.(모바일에는 최적화되어있지 않으니 가능하면 PC로 보시길 추천한다)
+이번 포스트(Part 2)에서는 인공 신경망을 가능하게 한 **역전파(Back Propagation)** 에 대해 알아보도록 하겠다.(모바일에는 최적화되어있지 않으니 가능하면 PC로 보시길 추천한다)
 
-만약 인공 신경망의 기본 개념과 **Feedforward Propagation** 에 대해서 잘 모른다면 [이전 포스트(Part 1)](https://Databuzz-team.github.io/2018/11/05/Back-Propagation/)를 먼저 보고 오기 바란다.
+만약 인공 신경망의 기본 개념과 **순방향 전파(Feedforward Propagation)** 에 대해서 잘 모른다면 [이전 포스트(Part 1)](https://Databuzz-team.github.io/2018/11/05/Back-Propagation/)를 먼저 보고 오기 바란다.
 
 ### 목차
 - <a href='#why-back-propagation'>왜 Back propagation를 이해해야 할까?</a>
