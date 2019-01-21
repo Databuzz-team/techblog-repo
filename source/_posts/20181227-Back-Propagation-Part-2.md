@@ -169,7 +169,7 @@ $$
 $$
 \frac{\partial E_{1}}{\partial O_{out1}} =  -1  * ((y_{1} * (1/O_{out1}) + (1-y_{1}) * (1/(1-O_{out1}))
 $$
-<blockquote>여기서 y1, y2는 실제 값을 의미한다.</blockquote>
+<blockquote>여기서 y1은 실제 값(y_true)을 의미한다.</blockquote>
 
 $$
 \frac{\partial O_{out1}}{\partial O_{in1}}  =
