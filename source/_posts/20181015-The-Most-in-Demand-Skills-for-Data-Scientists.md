@@ -8,6 +8,22 @@ tags:
 date: 2018-10-15 21:28:03
 thumbnail:
 ---
+<div class="danthetech-intro-wrap">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/the-most-in-demand-skills-for-data-scientists/">
+    <img class="danthetech-img-wrap" src="https://cdn-images-1.medium.com/max/800/1*-oG0j_wGSW_9cNNs4_qgFQ.png">
+    <div class="danthetech-p-wrap">
+      <h1 class="danthetech-intro-title">
+        Data Scientists에게 가장 요구되는 기술(Skills)들
+      </h1>
+      <p class="danthetech-intro-p">
+        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
+        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
+        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
+      </p>
+    </div>
+  </a>
+</div>
+
 요즘 글로벌 시장에서 **Data Scientists** 부족으로 난리라고 한다.. 가장 요구되는 기술들이 무엇인지 분석한 기사가 있어서 번역을 통해서 소개하고자 한다 (자세한 내용은 아래의 링크를 통해서 원문을 확인하자).
 
 > [원문(The Most in Demand Skills for Data Scientists) 링크](https://towardsdatascience.com/the-most-in-demand-skills-for-data-scientists-4a4a8db896db)

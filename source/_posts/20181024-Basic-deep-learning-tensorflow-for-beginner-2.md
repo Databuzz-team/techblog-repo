@@ -11,6 +11,22 @@ date: 2018-10-24 10:03:01
 thumbnail:
 ---
 
+<div class="danthetech-intro-wrap">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/deep-learning-an-introduction-to-deep-learning-with-tensorflow-part-2/">
+    <img class="danthetech-img-wrap" src="https://www.tensorflow.org/images/tensors_flowing.gif">
+    <div class="danthetech-p-wrap">
+      <h1 class="danthetech-intro-title">
+        An introduction to Deep Learning with Tensorflow(Part-2)
+      </h1>
+      <p class="danthetech-intro-p">
+        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
+        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
+        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
+      </p>
+    </div>
+  </a>
+</div>
+
 이번 포스트에서는 Tensorflow에서 꼭 알아야 할 기본적인 지식들에 대해서 알아보자.(Tensorflow설치법에 대해서는 다루지 않을 것)
 
 ### 1. Dataflow

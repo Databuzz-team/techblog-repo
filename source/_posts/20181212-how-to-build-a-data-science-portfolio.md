@@ -13,6 +13,22 @@ thumbnail:
 <img src="/images/danial/how-to-build-portfolio/thumbnail.jpg">
 </div>
 
+<div class="danthetech-intro-wrap">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/neural-network-back-propagation-part-2/">
+    <img class="danthetech-img-wrap" src="/images/danial/how-to-build-portfolio/thumbnail.jpg">
+    <div class="danthetech-p-wrap">
+      <h1 class="danthetech-intro-title">
+        데이터 사이언티스트 취업을 위한 포트폴리오 만드는 법
+      </h1>
+      <p class="danthetech-intro-p">
+        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
+        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
+        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
+      </p>
+    </div>
+  </a>
+</div>
+
 이 포스팅은 Medium 블로그를 번역한 내용입니다.  
 
 > 원문 링크 : [How to Build a Data Science Portfolio](https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c)

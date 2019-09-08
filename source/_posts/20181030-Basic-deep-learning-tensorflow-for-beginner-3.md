@@ -11,6 +11,22 @@ date: 2018-10-30 14:30:36
 thumbnail:
 ---
 
+<div class="danthetech-intro-wrap">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/deep-learning-an-introduction-to-deep-learning-with-tensorflow-part-3/">
+    <img class="danthetech-img-wrap" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Normdist_regression.png">
+    <div class="danthetech-p-wrap">
+      <h1 class="danthetech-intro-title">
+        An introduction to Deep Learning with Tensorflow(Part-3)
+      </h1>
+      <p class="danthetech-intro-p">
+        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
+        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
+        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
+      </p>
+    </div>
+  </a>
+</div>
+
 <h3>About</h3>
 
 이번 포스트에서는 간단하게 **회귀분석(Linear Regression)** 의 개념과 **Tensorflow** 를 이용하여 학습하는 법에 대해서 알아보자.
