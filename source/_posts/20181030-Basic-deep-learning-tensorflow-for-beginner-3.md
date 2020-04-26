@@ -12,7 +12,7 @@ thumbnail:
 ---
 
 <div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/deep-learning-an-introduction-to-deep-learning-with-tensorflow-part-3/">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/linear-regression-example-using-tensorflow/">
     <img class="danthetech-img-wrap" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Normdist_regression.png">
     <div class="danthetech-p-wrap">
       <h1 class="danthetech-intro-title">

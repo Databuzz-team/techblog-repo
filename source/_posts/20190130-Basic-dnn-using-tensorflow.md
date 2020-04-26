@@ -16,7 +16,7 @@ thumbnail:
 </div>
 
 <div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/basic-dnn-using-tensorflow/">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/dnn-using-tensorflow-for-starter/">
     <img class="danthetech-img-wrap" src="/images/danial/tensorflow.jpeg">
     <div class="danthetech-p-wrap">
       <h1 class="danthetech-intro-title">

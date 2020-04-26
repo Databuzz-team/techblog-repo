@@ -12,7 +12,7 @@ mathjax: true
 ---
 
 <div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/neural-network-back-propagation-part-1/">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/feedforward-propagation/">
     <img class="danthetech-img-wrap" src="/images/danial/back-prop/thumbnail.png">
     <div class="danthetech-p-wrap">
       <h1 class="danthetech-intro-title">

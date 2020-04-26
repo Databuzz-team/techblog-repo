@@ -11,7 +11,7 @@ date: 2018-10-22 23:27:01
 thumbnail:
 ---
 <div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/deep-learning-an-introduction-to-deep-learning-with-tensorflow-part-1/">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.app/DataScience/basic-concept-of-tensorflow/">
     <img class="danthetech-img-wrap" src="https://cdn-images-1.medium.com/max/1600/1*7lklTJQytHz8w7Eeqz5ZhA.png">
     <div class="danthetech-p-wrap">
       <h1 class="danthetech-intro-title">

@@ -12,7 +12,7 @@ thumbnail:
 ---
 
 <div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/deep-learning-an-introduction-to-deep-learning-with-tensorflow-part-2/">
+  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/commonly-used-syntax-tutorial-of-tensorflow/">
     <img class="danthetech-img-wrap" src="https://www.tensorflow.org/images/tensors_flowing.gif">
     <div class="danthetech-p-wrap">
       <h1 class="danthetech-intro-title">
