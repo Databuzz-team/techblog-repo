@@ -8,22 +8,6 @@ date: 2018-10-21 22:01:32
 thumbnail:
 ---
 
-<div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/how-to-embed-jupyter-notebook-using-gist/">
-    <img class="danthetech-img-wrap" src="/images/danial/gist_1.png">
-    <div class="danthetech-p-wrap">
-      <h1 class="danthetech-intro-title">
-        Gist를 사용하여 Jupyter Notebook 포스팅하기
-      </h1>
-      <p class="danthetech-intro-p">
-        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
-        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
-        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
-      </p>
-    </div>
-  </a>
-</div>
-
 ##### [Gist](https://gist.github.com/)를 사용하면 아래처럼 소스코드를 임베딩 할 수 있다.
 
 아래의 예는 **Jupyter Notebook** 을 임베딩한 것이지만, 이 외에도 .py, .md, .html 등 소스 코드는 다 할 수 있다.

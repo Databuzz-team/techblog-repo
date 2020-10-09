@@ -15,22 +15,6 @@ thumbnail:
 <img src="/images/danial/tensorflow.jpeg">
 </div>
 
-<div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/dnn-using-tensorflow-for-starter/">
-    <img class="danthetech-img-wrap" src="/images/danial/tensorflow.jpeg">
-    <div class="danthetech-p-wrap">
-      <h1 class="danthetech-intro-title">
-        Tensorflow로 DNN 모델링하며 Good Practice에 대해서 생각해보자
-      </h1>
-      <p class="danthetech-intro-p">
-        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
-        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
-        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
-      </p>
-    </div>
-  </a>
-</div>
-
 ### About
 이번 포스트에서는 Tensorflow를 이용하여 Deep Neural Networks를 구현하는 법을 간단히 알아보도록 하고, 어떻게 하면 코드 복사 붙여넣기 없이 할 수 있을까에 대해서 생각해보고 구현한 것을 공유하고자 한다.
 

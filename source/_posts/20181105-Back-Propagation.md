@@ -11,22 +11,6 @@ thumbnail:
 mathjax: true
 ---
 
-<div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/feedforward-propagation/">
-    <img class="danthetech-img-wrap" src="/images/danial/back-prop/thumbnail.png">
-    <div class="danthetech-p-wrap">
-      <h1 class="danthetech-intro-title">
-        인공신경망에 대한 이해(Part 1 - Feedforward Propagation)
-      </h1>
-      <p class="danthetech-intro-p">
-        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
-        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
-        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
-      </p>
-    </div>
-  </a>
-</div>
-
 <br>
 
 이번 포스트(Part 1)에서는 TensorFlow로 DNN을 구현하기 전에 먼저 기본 개념을 알아보고 다음 포스트(Part 2)에서는 인공 신경망을 가능하게 한 **Back Propagation** 에 대해 알아보도록 하겠다.(모바일에는 최적화되어있지 않으니 가능하면 PC로 보시길 추천한다)

@@ -8,22 +8,6 @@ date: 2018-10-21 11:23:13
 thumbnail:
 ---
 
-<div class="danthetech-intro-wrap">
-  <a class="danthetech-intro-a" href="https://danthetech.netlify.com/DataScience/handle-imbalanced-data/">
-    <!-- <img class="danthetech-img-wrap" src="/images/danial/gist_1.png"> -->
-    <div class="danthetech-p-wrap">
-      <h1 class="danthetech-intro-title">
-        비대칭 데이터 문제는 어떻게 해결해야 하나?
-      </h1>
-      <p class="danthetech-intro-p">
-        <span class="danthetech-intro-strong">이 컨텐츠는 DanTheTech 블로그로 옮겨졌습니다!</span>
-        불편을 끼쳐드려 죄송합니다. 이 링크를 클릭하셔서 확인해주시면 정말 감사하겠습니다.
-        앞으로도 DataScience, App Development부터 DevOps관련 자료 등 도움될만한 글이 많이 올릴 예정이니 자주 들려주세요! :)
-      </p>
-    </div>
-  </a>
-</div>
-
 <br>
 > [참고 블로그(8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset) 링크](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
 > [블로거 링크](https://machinelearningmastery.com/)
